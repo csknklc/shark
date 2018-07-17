@@ -1,0 +1,22 @@
+{
+	"name": "shark",
+	"displayName": "Shark Color Themes",
+	"description": "Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "csknklc",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Shark Color Themes",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Shark Color Themes-color-theme.json"
+			}
+		]
+	}
+}
