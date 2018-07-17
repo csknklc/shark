@@ -13,9 +13,19 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Shark Color Themes",
+				"label": "Shark Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Shark Color Themes-color-theme.json"
+				"path": "./themes/Shark Dark-color-theme.tmTheme"
+			},
+			{
+				"label": "Shark Gray",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Shark Gray-color-theme.tmTheme"
+			},
+			{
+				"label": "Shark Light",
+				"uiTheme": "vs",
+				"path": "./themes/Shark Light-color-theme.tmTheme"
 			}
 		]
 	}
