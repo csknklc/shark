@@ -2,7 +2,7 @@
 # Shark Color Themes
 [![GitHub Tags](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
 ](https://github.com/csknklc/shark)
-[![GitHub Tags](https://img.shields.io/badge/sublime--text-2%2F3-red.svg)
+[![GitHub Tags](https://img.shields.io/amo/stars/dustman.svg)
 ](https://github.com/csknklc/shark)
 
 ## Color Themes
