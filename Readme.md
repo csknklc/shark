@@ -16,8 +16,8 @@ Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly h
 ## Auto Installation
 
 * <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> 
-* then type `ext install shark`
-* and press <kbd>ENTER</kbd>
+* Type `ext install shark`
+* Press <kbd>ENTER</kbd>
 
 [![GitHub Tags](https://img.shields.io/badge/status-available-brightgreen.svg)
 ](https://github.com/csknklc/shark)
@@ -36,28 +36,27 @@ Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly h
 
 ## Screenshots
 
-[![GitHub Tags](https://img.shields.io/badge/theme-Material-orange.svg)
-](http://equinsuocha.io/material-theme/#/default)
-
 [![GitHub Tags](https://img.shields.io/badge/color-dark-010101.svg)
 ](https://github.com/csknklc/shark)
 
-![dark_01](https://user-images.githubusercontent.com/22396814/33724420-729cd44a-db80-11e7-923f-0ee32e8d4109.png)
+
+![shark02](https://user-images.githubusercontent.com/22396814/42848288-9cc7e524-8a27-11e8-8567-47a1490f69ed.png)
 
 
 [![GitHub Tags](https://img.shields.io/badge/color-gray-lightgrey.svg)
 ](https://github.com/csknklc/shark)
 
-![gray_01](https://user-images.githubusercontent.com/22396814/33724459-81d33cec-db80-11e7-8af6-19aedceeaa12.png)
+
+![shark03](https://user-images.githubusercontent.com/22396814/42848301-ae80256a-8a27-11e8-94c8-0fef5d187582.png)
 
 
 [![GitHub Tags](https://img.shields.io/badge/color-light-blue.svg)
 ](https://github.com/csknklc/shark)
 
-![light_01](https://user-images.githubusercontent.com/22396814/33724472-8e4e2482-db80-11e7-87ab-745939b4f768.png)
+![shark04](https://user-images.githubusercontent.com/22396814/42848310-bce802da-8a27-11e8-8be8-d5e6ceab9152.png)
 
 
-![gray_02](https://user-images.githubusercontent.com/22396814/33724580-d877e61a-db80-11e7-965f-efaf334c56fe.png)
+![shark01](https://user-images.githubusercontent.com/22396814/42848324-c937b440-8a27-11e8-8403-a47a268d4502.png)
 
 ## License
 
