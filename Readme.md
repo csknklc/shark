@@ -1,3 +1,4 @@
+![shark-icon 32x](https://user-images.githubusercontent.com/22396814/42848196-39da9f2e-8a27-11e8-9337-fd2320948345.png)
 # Shark Color Themes
 [![GitHub Tags](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
 ](https://github.com/csknklc/shark)
@@ -7,15 +8,15 @@
 ## Color Themes
 > Dark | Gray | Light
 ###
-Se7en Color Scheme has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
+Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
 
 [![GitHub Tags](https://img.shields.io/badge/coverage-C%2FC%2B%2B-blue.svg)
 ](https://github.com/csknklc/shark)
 
-## Installation
+## Auto Installation
 
-* Use [Sublime Package Control](http://wbond.net/sublime_packages/package_control "Sublime Package Control")
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> then select `ext install shark`
+* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> 
+* then type `ext install shark`
 * and press <kbd>ENTER</kbd>
 
 [![GitHub Tags](https://img.shields.io/badge/status-available-brightgreen.svg)
