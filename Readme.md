@@ -13,23 +13,6 @@ Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly h
 [![GitHub Tags](https://img.shields.io/badge/coverage-C%2FC%2B%2B-blue.svg)
 ](https://github.com/csknklc/shark)
 
-## Auto Installation
-
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> 
-* Type `ext install shark`
-* Press <kbd>ENTER</kbd>
-
-[![GitHub Tags](https://img.shields.io/badge/status-available-brightgreen.svg)
-](https://github.com/csknklc/shark)
-
-## Manuel Installation
-* Download repository.
-* Extract the package
-* Copy 'Shark Color Themes' folder.
-* Open '/.vscode' paste the folder into here. 
-* Click 'Preferences->Color Theme...' 
-* Type 'Shark Dark/Gray/Light' and press <kbd>ENTER</kbd>
-* Ready for usage.
 
 [![GitHub Tags](https://img.shields.io/badge/status-available-brightgreen.svg)
 ](https://github.com/csknklc/shark)
