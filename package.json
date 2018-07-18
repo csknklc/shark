@@ -2,7 +2,7 @@
 	"name": "shark-color-themes",
 	"displayName": "Shark Color Themes",
 	"description": "Color Themes for Visual Studio Code",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "csknklc",
 	"engines": {
 		"vscode": "^1.25.0"
