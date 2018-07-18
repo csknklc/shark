@@ -7,8 +7,7 @@
 
 ## Color Themes
 > Dark | Gray | Light
-##
-Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
+### Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
 
 [![GitHub Tags](https://img.shields.io/badge/coverage-C%2FC%2B%2B-blue.svg)
 ](https://github.com/csknklc/shark)
