@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 
 <!--
- - @Name:			Se7en Light
+ - @Name:			Shark Light
  - @Author:		Coşkun KILIÇ
  - @License:	The MIT License (MIT)
- - @URL:			https://github.com/csknklc/Se7en
+ - @URL:			https://github.com/csknklc/shark
 -->
 
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Se7en Light</string>
+	<string>Shark Light</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -24,11 +24,11 @@
 				<key>foreground</key>
 				<string>#6B6B6B</string>
 				<key>invisibles</key>
-				<string>#FFFFFF</string>
+				<string>#F7F7F7</string>
 				<key>lineHighlight</key>
-				<string>#FF003C</string>
+				<string>#D1D1D1</string>
 				<key>selection</key>
-				<string>#B8B8B8</string>
+				<string>#D1D1D1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -375,10 +375,10 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.se7en</string>
+	<string>theme.light.shark</string>
 	<key>author</key>
 	<string>Coşkun KILIÇ</string>
 	<key>comment</key>
-	<string>https://github.com/csknklc/se7en</string>
+	<string>https://github.com/csknklc/shark</string>
 </dict>
 </plist>
