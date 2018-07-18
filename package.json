@@ -14,7 +14,7 @@
 	"bugs": {
 		"url": "https://github.com/csknklc/shark/issues"
 	},
-	"homepage": "https://github.com/csknklc/shark/README.md",
+	"homepage": "https://github.com/csknklc/shark/blob/master/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/csknklc/shark.git"
