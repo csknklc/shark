@@ -7,7 +7,7 @@
 ](https://github.com/csknklc/shark)
 
 ## Color Themes
-###
+
 > Dark | Gray | Light
 ###
 ### Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
