@@ -1,4 +1,5 @@
-![shark-icon 64x](https://user-images.githubusercontent.com/22396814/42848225-4f498618-8a27-11e8-8e1d-fbbe1ce3ce2a.png)
+![shark-icon 64x](![ic_shark_128x](https://user-images.githubusercontent.com/22396814/42885898-ea6a0414-8aaa-11e8-98a2-22b26aadbcf6.png)
+)
 # Shark Color Themes
 [![GitHub Tags](https://img.shields.io/badge/version-0.1.2-brightgreen.svg)
 ](https://github.com/csknklc/shark)
