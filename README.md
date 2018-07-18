@@ -1,7 +1,7 @@
 ![shark-icon 64x](https://user-images.githubusercontent.com/22396814/42885986-1d136644-8aab-11e8-9c32-ea4c7519bd09.png)
 
 # Shark Color Themes
-[![GitHub Tags](https://img.shields.io/badge/version-0.1.2-brightgreen.svg)
+[![GitHub Tags](https://img.shields.io/badge/version-0.1.3-brightgreen.svg)
 ](https://github.com/csknklc/shark)
 [![GitHub Tags](https://img.shields.io/amo/stars/dustman.svg)
 ](https://github.com/csknklc/shark)
