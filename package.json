@@ -1,8 +1,8 @@
 {
-	"name": "shark",
+	"name": "shark-color-themes",
 	"displayName": "Shark Color Themes",
-	"description": "Visual Studio Code",
-	"version": "0.0.1",
+	"description": "Color Themes for Visual Studio Code",
+	"version": "0.1.0",
 	"publisher": "csknklc",
 	"engines": {
 		"vscode": "^1.25.0"
@@ -10,6 +10,16 @@
 	"categories": [
 		"Themes"
 	],
+	"license": "LICENSE",
+	"bugs": {
+		"url": "https://github.com/csknklc/shark/issues"
+	},
+	"homepage": "https://github.com/csknklc/shark/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/csknklc/shark.git"
+	},
+	"icon": "images/shark-icon@128x.png",
 	"contributes": {
 		"themes": [
 			{
