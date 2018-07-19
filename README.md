@@ -3,7 +3,8 @@
 # Shark Color Themes
 [![GitHub Tags](https://img.shields.io/badge/version-0.2.0-ff69b4.svg)
 ](https://github.com/csknklc/shark)
-[![GitHub Tags](https://img.shields.io/amo/stars/dustman.svg)
+
+[![GitHub Tags](https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg)
 ](https://github.com/csknklc/shark)
 
 ## Color Themes
