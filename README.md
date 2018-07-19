@@ -7,7 +7,7 @@
 ](https://github.com/csknklc/shark)
 
 ## Color Themes
-### Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
+#### Shark Color Themes has been created with C, C++ and C# in mind but I'll gladly help make it better for other languages as well.
 
 
 [![GitHub Tags](https://img.shields.io/badge/status-available-brightgreen.svg)
@@ -24,7 +24,7 @@
 ![img_shark_04](https://user-images.githubusercontent.com/22396814/42973470-f01c6354-8bbb-11e8-8ce5-f85b396d6180.png)
 
 
-[![GitHub Tags](https://img.shields.io/badge/color-gray-lightgrey.svg)
+[![GitHub Tags](https://img.shields.io/badge/color-smoke-lightgrey.svg)
 ](https://github.com/csknklc/shark)
 
 
