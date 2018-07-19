@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!--
+ - @Name:			Shark Dark
+ - @Author:		Coşkun KILIÇ
+ - @License:	The MIT License (MIT)
+ - @URL:			https://github.com/csknklc/shark
+-->
+
+<plist version="1.0">
+
+<!--
+- @brief Theme settings
+-->
+<dict>
+	<key>name</key>
+	<string>Shark Black</string>
+	<key>settings</key>
+
+	<array>
+
+		<!--
+		- @brief Generic settings
+		-->
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#242424</string>
+				<key>caret</key>
+				<string>#EEEEEE</string>
+				<key>foreground</key>
+				<string>#EEEEEE</string>
+				<key>invisibles</key>
+				<string>#141414</string>
+				<key>lineHighlight</key>
+				<string>#303030</string>
+				<key>selection</key>
+				<string>#3F3F3F</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Comment
+		- @args  Line
+		- @args  Block
+		- @color Gray
+		-->
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4D4D4D</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Comment
+		- @args  Line
+		- @color Gray
+		-->
+		<dict>
+			<key>name</key>
+			<string>Comment Line</string>
+			<key>scope</key>
+			<string>comment.line</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3C3C3C</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Comment
+		- @args  Block
+		- @color Gray
+		-->
+		<dict>
+			<key>name</key>
+			<string>Comment Block</string>
+			<key>scope</key>
+			<string>comment.block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4F4F4F</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Numeric
+		- @args  Character
+		- @args  Language
+		- @args  Other
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Numeric
+		- @args  Integer
+		- @args  Float
+		- @args  Hex
+		- @args  Octal
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Numeric
+		- @args  Integer
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Number Integer</string>
+			<key>scope</key>
+			<string>constant.numeric.integer</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Numeric
+		- @args  Float
+		- @color Orange
+		-->
+		<dict>
+			<key>name</key>
+			<string>Number Float</string>
+			<key>scope</key>
+			<string>constant.numeric.float</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFBF00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Numeric
+		- @args  Hex and Octal
+		- @color Orange
+		-->
+		<dict>
+			<key>name</key>
+			<string>Number Hex and Octal</string>
+			<key>scope</key>
+			<string>constant.numeric.hex constant.numeric.octal</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BFFF00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Character { '\0' }
+		- @color Orange
+		-->
+		<dict>
+			<key>name</key>
+			<string>Constant Character</string>
+			<key>scope</key>
+			<string>constant.character</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFBF00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Language { NULL }
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Constant Language</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Constant
+		- @args  Other { %s }
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Constant Other</string>
+			<key>scope</key>
+			<string>constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BFFF00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Name Type
+		- @color Brown
+		-->
+		<dict>
+			<key>name</key>
+			<string>Type name</string>
+			<key>scope</key>
+			<string>entity.name.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9C733D</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Name Class
+		- @color Brown
+		-->
+		<dict>
+			<key>name</key>
+			<string>Class Name</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#BD8B1E</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Name Enum
+		- @color Brown
+		-->
+		<dict>
+			<key>name</key>
+			<string>Enum Name</string>
+			<key>scope</key>
+			<string>entity.name.enum</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#BD8B1E</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Name Function
+		- @color Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#48ADF0</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Name Tag
+		- @color Red
+		-->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff1a3f</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Other Attrribute Name
+		- @color Red
+		-->
+		<dict>
+			<key>name</key>
+			<string>Other Attrribute name</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#36a6ff</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Entity
+		- @args  Other Inherited Class
+		- @color Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Other Inherited Class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#36a6ff</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Invalid
+		- @args  Illagal
+		- @args  Deprecated
+		- @color Red
+		- @style Underline
+		-->
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Invalid
+		- @args  Illagal
+		- @color Red
+		- @style Underline
+		-->
+		<dict>
+			<key>name</key>
+			<string>Invalid Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Invalid
+		- @args  Deprecated
+		- @color Orange
+		- @style Underline
+		-->
+		<dict>
+			<key>name</key>
+			<string>Invalid Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF5500</string>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @color Red
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff3e3e</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Control
+		- @color Red
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Control</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff3e3e</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Control Conditional
+		- @color Dark Orange
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Control Conditional</string>
+			<key>scope</key>
+			<string>keyword.control.conditional</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca2010</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Control Import
+		- @color Dark Pink
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Control Import</string>
+			<key>scope</key>
+			<string>keyword.control.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca101d</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Operator
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Operator Assignment
+		- @color Orange
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Assignment</string>
+			<key>scope</key>
+			<string>keyword.operator.assignment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff7c00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Operator Arithmetic
+		- @color Orange
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Arithmetic</string>
+			<key>scope</key>
+			<string>keyword.operator.arithmetic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff0065</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Operator Bitwise
+		- @color Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Bitwise</string>
+			<key>scope</key>
+			<string>keyword.operator.bitwise</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00ffb5</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Operator Logical
+		- @color Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Logical</string>
+			<key>scope</key>
+			<string>keyword.operator.logical</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffaf00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Operator Word
+		- @color Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Word</string>
+			<key>scope</key>
+			<string>keyword.operator.word</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffaf00</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Punctuation
+		- @color Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff3e3e</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Keyword
+		- @args  Other
+		- @color Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Other</string>
+			<key>scope</key>
+			<string>keyword.operator.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff3e76</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Punctuation
+		- @args  Separator
+		- @color Light Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Punctuation Separator</string>
+			<key>scope</key>
+			<string>punctuation.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFCAD</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Punctuation
+		- @args  Accessor
+		- @color Light Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Punctuation Accessor</string>
+			<key>scope</key>
+			<string>punctuation.accessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B2E9FF</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Punctuation
+		- @args  Terminator
+		- @color Gray
+		-->
+		<dict>
+			<key>name</key>
+			<string>Punctuation Terminator</string>
+			<key>scope</key>
+			<string>punctuation.terminator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Storage
+		- @color Dark Pink
+		-->
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ab673f</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Storage
+		- @args  Type
+		- @color Red
+		-->
+		<dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FC4949</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Support
+		- @args  Constant
+		- @color Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Support Constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#3DDB89</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Support
+		- @args  Function
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Support Function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Support
+		- @args  Module
+		- @color Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>Support Module</string>
+			<key>scope</key>
+			<string>support.module</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Support
+		- @args  Type
+		- @color Light Brown
+		-->
+		<dict>
+			<key>name</key>
+			<string>Support Type</string>
+			<key>scope</key>
+			<string>support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFDE96</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Support
+		- @args  Class
+		- @color Light Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Support Class</string>
+			<key>scope</key>
+			<string>support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A6FF96</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Support
+		- @args  Other
+		- @color Light Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Library Other</string>
+			<key>scope</key>
+			<string>support.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F5B862</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief String
+		- @color Light Yellow
+		-->
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1FF30</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @color Light Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#85FF9D</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @args  Parameter
+		- @color Light Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable Parameter</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9999</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @args  Function
+		- @color Light Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable Function</string>
+			<key>scope</key>
+			<string>variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FF7B</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @args  Other
+		- @color Light Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable Other Read/Write</string>
+			<key>scope</key>
+			<string>variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FF7B</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @args  Language
+		- @color Light Blue
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable Language</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF7300</string>
+			</dict>
+		</dict>
+
+	</array>
+
+	<!--
+	- @brief Theme info
+	-->
+	<key>uuid</key>
+	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.shark</string>
+	<key>author</key>
+	<string>Coşkun KILIÇ</string>
+	<key>comment</key>
+	<string>https://github.com/csknklc/shark</string>
+</dict>
+</plist>

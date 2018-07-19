@@ -1,0 +1,25 @@
+{
+	"type": "dark",
+	"colors": {
+		"sideBar.background": "#141414",
+		"sideBar.foreground": "#eeeeee",
+		"sideBar.border": "#303030",
+		"sideBar.dropBackground": "#202020",
+		"sideBarTitle.foreground": "#eeeeee",
+		"sideBarSectionHeader.background": "#303030",
+		"sideBarSectionHeader.foreground": "#eeeeee",
+		"editor.foreground": "#eeeeee",
+		"editor.background": "#141414",
+		"editorRuler.foreground": "#eeeeee",
+		"activityBarBadge.background": "#141414",
+		"editorIndentGuide.background": "#3b3b3b",
+		"editorIndentGuide.activeBackground": "#4c4c4c",
+		"editor.selectionBackground": "#303030",
+		"editor.inactiveSelectionBackground": "#4e4e4e",
+		"editor.selectionHighlightBackground": "#3f3f3f",
+		"editorCursor.foreground": "#eeeeee",
+		"editor.lineHighlightBackground": "#202020",
+		"editor.lineHighlightBorder": "#202020"
+	},
+	"tokenColors": "./shark-dark.tmTheme"
+}
