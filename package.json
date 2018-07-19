@@ -2,7 +2,7 @@
 	"name": "shark-color-themes",
 	"displayName": "Shark Color Themes",
 	"description": "Color Themes for Visual Studio Code",
-	"version": "0.1.3",
+	"version": "0.2.0",
 	"publisher": "csknklc",
 	"engines": {
 		"vscode": "^1.25.0"
@@ -19,24 +19,43 @@
 		"type": "git",
 		"url": "https://github.com/csknklc/shark.git"
 	},
-	"icon": "images/shark-icon@128x.png",
+	"icon": "images/ic_shark_128x.png",
+	"keywords": [
+		"theme",
+		"color-theme",
+		"dark-theme",
+		"smoke-theme",
+		"light-theme",
+		"shark theme",
+		"shark color theme"
+	],
+	"author": {
+		"name": "Coşkun Kılıç",
+		"email": "csknklc@outlook.com",
+		"url": "https://github.com/csknklc"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "Shark Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Shark Dark-color-theme.tmTheme"
+				"path": "./themes/shark-dark.json"
 			},
 			{
-				"label": "Shark Gray",
+				"label": "Shark Smoke",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Shark Gray-color-theme.tmTheme"
+				"path": "./themes/shark-smoke.json"
 			},
 			{
 				"label": "Shark Light",
 				"uiTheme": "vs",
-				"path": "./themes/Shark Light-color-theme.tmTheme"
+				"path": "./themes/shark-light.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "f0374f8b-7564-4264-b8b5-15fe912d044e",
+		"publisherId": "9deeada0-4eb8-4a31-ac6d-ede24f2f837c",
+		"publisherDisplayName": "Coşkun Kılıç"
 	}
 }
