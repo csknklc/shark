@@ -1,59 +1,55 @@
 {
-	"name": "shark-color-themes",
-	"displayName": "Shark Color Themes",
-	"description": "Color Themes for Visual Studio Code",
-	"version": "0.2.1",
-	"publisher": "csknklc",
-	"engines": {
-		"vscode": "^1.25.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"license": "LICENSE",
-	"bugs": {
-		"url": "https://github.com/csknklc/shark/issues"
-	},
-	"homepage": "https://github.com/csknklc/shark/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/csknklc/shark.git"
-	},
-	"icon": "images/ic_shark_128x.png",
-	"keywords": [
-		"theme",
-		"color-theme",
-		"dark-theme",
-		"light-theme",
-		"shark color theme"
-	],
-	"author": {
-		"name": "Coşkun Kılıç",
-		"email": "csknklc@outlook.com",
-		"url": "https://github.com/csknklc"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Shark Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/shark-dark.json"
-			},
-			{
-				"label": "Shark Smoke",
-				"uiTheme": "vs-dark",
-				"path": "./themes/shark-smoke.json"
-			},
-			{
-				"label": "Shark Light",
-				"uiTheme": "vs",
-				"path": "./themes/shark-light.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "f0374f8b-7564-4264-b8b5-15fe912d044e",
-		"publisherId": "9deeada0-4eb8-4a31-ac6d-ede24f2f837c",
-		"publisherDisplayName": "Coşkun Kılıç"
-	}
+  "name": "shark-color-themes",
+  "displayName": "Shark Color Themes",
+  "description": "Color Themes for Visual Studio Code",
+  "version": "0.2.2",
+  "publisher": "csknklc",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/csknklc/shark/issues"
+  },
+  "homepage": "https://github.com/csknklc/shark/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csknklc/shark.git"
+  },
+  "icon": "images/ic_shark_128x.png",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "shark color theme"
+  ],
+  "author": "Coşkun Kılıç <csknklc@outlook.com> (https://github.com/csknklc)",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shark Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shark-dark.json"
+      },
+      {
+        "label": "Shark Smoke",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shark-smoke.json"
+      },
+      {
+        "label": "Shark Light",
+        "uiTheme": "vs",
+        "path": "./themes/shark-light.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "f0374f8b-7564-4264-b8b5-15fe912d044e",
+    "publisherId": "5369af41-4ff8-48ca-be30-ec8ff25a52b6",
+    "publisherDisplayName": "Coşkun Kılıç"
+  }
 }
