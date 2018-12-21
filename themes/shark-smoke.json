@@ -14,9 +14,9 @@
 		"activityBarBadge.background": "#242424",
 		"editorIndentGuide.background": "#3b3b3b",
 		"editorIndentGuide.activeBackground": "#4c4c4c",
-		"editor.selectionBackground": "#4C4C4C",
-		"editor.inactiveSelectionBackground": "#6E6E6E",
-		"editor.selectionHighlightBackground": "#5D5D5D",
+		"editor.selectionBackground": "#606060",
+		"editor.inactiveSelectionBackground": "#6e6e6e",
+		"editor.selectionHighlightBackground": "#606060",
 		"editorCursor.foreground": "#eeeeee",
 		"editor.lineHighlightBackground": "#303030",
 		"editor.lineHighlightBorder": "#303030"
