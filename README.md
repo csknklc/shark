@@ -1,7 +1,7 @@
 ![shark-icon 64x](https://user-images.githubusercontent.com/22396814/42885986-1d136644-8aab-11e8-9c32-ea4c7519bd09.png)
 
 # Shark Color Themes
-[![GitHub Tags](https://img.shields.io/badge/version-0.2.2-ff69b4.svg)
+[![GitHub Tags](https://img.shields.io/badge/version-0.2.5-ff69b4.svg)
 ](https://github.com/csknklc/shark)
 
 [![GitHub Tags](https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg)
