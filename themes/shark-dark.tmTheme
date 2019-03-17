@@ -324,7 +324,7 @@
 		<!--
 		- @brief Entity
 		- @args  Name Tag
-		- @color Red
+		- @color Pink
 		-->
 		<dict>
 			<key>name</key>
@@ -336,14 +336,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff1a3f</string>
+				<string>#ff0066</string>
 			</dict>
 		</dict>
 
 		<!--
 		- @brief Entity
 		- @args  Other Attrribute Name
-		- @color Red
+		- @color Blue
 		-->
 		<dict>
 			<key>name</key>
@@ -732,7 +732,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FC4949</string>
+				<string>#ff3e3e</string>
 			</dict>
 		</dict>
 
@@ -862,7 +862,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFF66</string>
+				<string>#F1FF30</string>
 			</dict>
 		</dict>
 
@@ -919,7 +919,24 @@
 		<!--
 		- @brief Variable
 		- @args  Other
-		- @color Light Blue
+		- @color Light Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable Other</string>
+			<key>scope</key>
+			<string>variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FF7B</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @args  Other Read and Write
+		- @color Light Green
 		-->
 		<dict>
 			<key>name</key>

@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 
 <!--
- - @Name:			Shark Dark
+ - @Name:			Shark Smoke
  - @Author:		Coşkun KILIÇ
  - @License:	The MIT License (MIT)
  - @URL:			https://github.com/csknklc/shark
@@ -15,7 +15,7 @@
 -->
 <dict>
 	<key>name</key>
-	<string>Shark Black</string>
+	<string>Shark Smoke</string>
 	<key>settings</key>
 
 	<array>
@@ -724,7 +724,7 @@
 		-->
 		<dict>
 			<key>name</key>
-			<string>Storage type</string>
+			<string>Storage Type</string>
 			<key>scope</key>
 			<string>storage.type</string>
 			<key>settings</key>
@@ -960,7 +960,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.shark</string>
+	<string>theme.smoke.shark</string>
 	<key>author</key>
 	<string>Coşkun KILIÇ</string>
 	<key>comment</key>
