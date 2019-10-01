@@ -49,3 +49,8 @@ v0.2.4 (2019-01-09)
 v0.2.5 (2019-02-20)
 -------------------
 - Adjusted colors
+
+
+v0.2.6 (2019-09-01)
+-------------------
+- Fixed some colors after recent updates
