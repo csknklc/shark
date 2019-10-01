@@ -180,7 +180,7 @@
 		- @brief Constant
 		- @args  Numeric
 		- @args  Hex and Octal
-		- @color Orange
+		- @color Green
 		-->
 		<dict>
 			<key>name</key>
@@ -447,7 +447,7 @@
 
 		<!--
 		- @brief Keyword
-		- @color Red
+		- @color Yellow
 		-->
 		<dict>
 			<key>name</key>
@@ -457,7 +457,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff3e3e</string>
+				<string>#F1FF30</string>
 			</dict>
 		</dict>
 
@@ -720,7 +720,7 @@
 		<!--
 		- @brief Storage
 		- @args  Type
-		- @color Red
+		- @color Brown
 		-->
 		<dict>
 			<key>name</key>
@@ -732,7 +732,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff3e3e</string>
+				<string>#cc9966</string>
 			</dict>
 		</dict>
 
