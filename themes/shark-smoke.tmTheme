@@ -105,7 +105,7 @@
 		- @args  Character
 		- @args  Language
 		- @args  Other
-		- @color Yellow
+		- @color Yellow 
 		-->
 		<dict>
 			<key>name</key>
@@ -180,7 +180,7 @@
 		- @brief Constant
 		- @args  Numeric
 		- @args  Hex and Octal
-		- @color Orange
+		- @color Green
 		-->
 		<dict>
 			<key>name</key>
@@ -224,14 +224,14 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F1FF30</string>
+				<string>#c684ff</string>
 			</dict>
 		</dict>
 
 		<!--
 		- @brief Constant
 		- @args  Other { %s }
-		- @color Yellow
+		- @color Green
 		-->
 		<dict>
 			<key>name</key>
@@ -324,7 +324,7 @@
 		<!--
 		- @brief Entity
 		- @args  Name Tag
-		- @color Red
+		- @color Pink
 		-->
 		<dict>
 			<key>name</key>
@@ -336,14 +336,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff1a3f</string>
+				<string>#ff0066</string>
 			</dict>
 		</dict>
 
 		<!--
 		- @brief Entity
 		- @args  Other Attrribute Name
-		- @color Red
+		- @color Blue
 		-->
 		<dict>
 			<key>name</key>
@@ -447,7 +447,7 @@
 
 		<!--
 		- @brief Keyword
-		- @color Red
+		- @color Yellow
 		-->
 		<dict>
 			<key>name</key>
@@ -457,7 +457,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff3e3e</string>
+				<string>#F1FF30</string>
 			</dict>
 		</dict>
 
@@ -576,7 +576,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00ffb5</string>
+				<string>#fb9ac0</string>
 			</dict>
 		</dict>
 
@@ -720,11 +720,11 @@
 		<!--
 		- @brief Storage
 		- @args  Type
-		- @color Red
+		- @color Brown
 		-->
 		<dict>
 			<key>name</key>
-			<string>Storage Type</string>
+			<string>Storage type</string>
 			<key>scope</key>
 			<string>storage.type</string>
 			<key>settings</key>
@@ -732,14 +732,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FC4949</string>
+				<string>#cc9966</string>
 			</dict>
 		</dict>
 
 		<!--
 		- @brief Support
 		- @args  Constant
-		- @color Green
+		- @color Green 
 		-->
 		<dict>
 			<key>name</key>
@@ -885,7 +885,7 @@
 		<!--
 		- @brief Variable
 		- @args  Parameter
-		- @color Light Blue
+		- @color Light Pink
 		-->
 		<dict>
 			<key>name</key>
@@ -902,7 +902,7 @@
 		<!--
 		- @brief Variable
 		- @args  Function
-		- @color Light Blue
+		- @color Light Green
 		-->
 		<dict>
 			<key>name</key>
@@ -912,14 +912,31 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00FF7B</string>
+				<string>#0a8c00</string>
 			</dict>
 		</dict>
 
 		<!--
 		- @brief Variable
 		- @args  Other
-		- @color Light Blue
+		- @color Light Green
+		-->
+		<dict>
+			<key>name</key>
+			<string>Variable Other</string>
+			<key>scope</key>
+			<string>variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9bdd96</string>
+			</dict>
+		</dict>
+
+		<!--
+		- @brief Variable
+		- @args  Other Read and Write
+		- @color Light Green
 		-->
 		<dict>
 			<key>name</key>
@@ -929,7 +946,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00FF7B</string>
+				<string>#6fff63</string>
 			</dict>
 		</dict>
 
